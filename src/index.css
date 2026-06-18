@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Extralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('./assets/fonts/ClashGrotesk-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Clash Grotesk", sans-serif;
+}
