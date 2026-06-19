@@ -3,10 +3,10 @@ import { MoveRight } from "lucide-react"
 export function SomeShop() {
     return (
         <section className="flex flex-col w-full py-3">
-            <div className="flex justify-between items-center">
+            <div className="group flex justify-between items-center">
                 <h2 className="text-xl">Conoce algunas tiendas</h2>
                 <div className="flex items-center gap-2">
-                    <a href="" className="">Más tiendas</a>
+                    <a href="" className="group-hover:underline">Más tiendas</a>
                     <MoveRight size={15} />
                 </div>
             </div>

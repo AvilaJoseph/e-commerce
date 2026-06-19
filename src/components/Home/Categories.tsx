@@ -15,7 +15,7 @@ export function Categories() {
                         <h2 className="text-white text-lg">{cat.subtitle}</h2>
                     </div>
 
-                    <a href={cat.link} className="bg-white text-black w-40 py-2 mt-4 rounded-2xl inline-flex items-center justify-center text-center transition-colors">
+                    <a href={cat.link} className="bg-white text-black px-8 py-2 mt-4 rounded-2xl inline-flex items-center justify-center text-center transition-colors">
                         {cat.buttonText}
                     </a>
                 </div>
