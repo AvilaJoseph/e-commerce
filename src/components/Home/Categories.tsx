@@ -9,7 +9,7 @@ export function Categories() {
     return (
         <section className="grid grid-cols-1 md:grid-cols-4 gap-4 py-3 mt-3">
             {categoriesData.map((cat, index) => (
-                <div key={index} className="bg-green-950 rounded-2xl flex flex-col justify-between px-8 py-5 min-h-45">
+                <div key={index} className="bg-green-950 rounded-2xl flex flex-col justify-between px-5 md:px-8 py-5 min-h-45">
                     <div>
                         <h2 className="text-white text-xl">{cat.title}</h2>
                         <h2 className="text-white text-lg">{cat.subtitle}</h2>

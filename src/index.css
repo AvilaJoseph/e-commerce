@@ -40,13 +40,13 @@
     font-style: normal;
 }
 
-.hide-scrollbar::-webkit-scrollbar {
-    display: none;
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-.hide-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+html::-webkit-scrollbar {
+    display: none;
 }
 
 @import "tailwindcss";

@@ -1,13 +1,15 @@
-import { MoveRight, Plus } from "lucide-react"
+import { Plus } from "lucide-react"
 
-export function BestSelling() {
+export function MoreProducts() {
     return (
-        <section className="flex flex-col w-full py-3 gap-1">
-            <div className="flex justify-between">
-                <h2 className="text-xl">Productos destacados</h2>
-                <div className="group flex flex-row gap-3 items-center">
-                    <a href="" className="group-hover:underline">Más productos</a>
-                    <MoveRight size={15} />
+        <section className="flex flex-col w-full gap-3 mt-4">
+            <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
+                <h2 className="text-xl">Algunos productos que te pueden interesar</h2>
+                <div className="flex flex-wrap items-center justify-center md:justify-end gap-2 w-full">
+                    <a href="" className="bg-green-950 rounded-2xl text-white px-4 py-2 text-center whitespace-nowrap">Belleza</a>
+                    <a href="" className="bg-white border border-green-950 rounded-2xl text-green-950 px-4 py-2 text-center whitespace-nowrap">Ropa y Moda</a>
+                    <a href="" className="bg-white border border-green-950 rounded-2xl text-green-950 px-4 py-2 text-center whitespace-nowrap">Comida</a>
+                    <a href="" className="bg-white border border-green-950 rounded-2xl text-green-950 px-4 py-2 text-center whitespace-nowrap">Muebles</a>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">

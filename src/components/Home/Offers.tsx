@@ -1,12 +1,12 @@
 import { MoveRight, Plus } from "lucide-react"
 
-export function BestSelling() {
+export function Offers() {
     return (
-        <section className="flex flex-col w-full py-3 gap-1">
-            <div className="flex justify-between">
-                <h2 className="text-xl">Productos destacados</h2>
-                <div className="group flex flex-row gap-3 items-center">
-                    <a href="" className="group-hover:underline">Más productos</a>
+        <section className="flex flex-col w-full justify-center py-3 gap-1">
+            <div className="flex flex-row justify-between items-center">
+                <h2 className="text-xl">Ofertas del día</h2>
+                <div className="flex group items-center gap-2">
+                    <a href="" className="group-hover:underline">Más ofertas</a>
                     <MoveRight size={15} />
                 </div>
             </div>
@@ -26,9 +26,10 @@ export function BestSelling() {
                         </div>
                     </div>
                 </div>
-
                 <div className="flex flex-col">
-                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl"></div>
+                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl">
+                        <div></div>
+                    </div>
                     <div className="bg-[#fbf9f5] rounded-b-2xl p-4 flex flex-col gap-1">
                         <h2 className="text-sm md:text-base font-medium line-clamp-2">Envase de agua reusable para greener lifestyle</h2>
                         <div className="flex flex-row justify-between items-center mt-1">
@@ -40,9 +41,10 @@ export function BestSelling() {
                         </div>
                     </div>
                 </div>
-
                 <div className="flex flex-col">
-                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl"></div>
+                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl">
+                        <div></div>
+                    </div>
                     <div className="bg-[#fbf9f5] rounded-b-2xl p-4 flex flex-col gap-1">
                         <h2 className="text-sm md:text-base font-medium line-clamp-2">Envase de agua reusable para greener lifestyle</h2>
                         <div className="flex flex-row justify-between items-center mt-1">
@@ -54,9 +56,10 @@ export function BestSelling() {
                         </div>
                     </div>
                 </div>
-
                 <div className="flex flex-col">
-                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl"></div>
+                    <div className="bg-linear-to-b from-[#b5b1a3] to-[#e1ddd2] aspect-square rounded-t-2xl">
+                        <div></div>
+                    </div>
                     <div className="bg-[#fbf9f5] rounded-b-2xl p-4 flex flex-col gap-1">
                         <h2 className="text-sm md:text-base font-medium line-clamp-2">Envase de agua reusable para greener lifestyle</h2>
                         <div className="flex flex-row justify-between items-center mt-1">

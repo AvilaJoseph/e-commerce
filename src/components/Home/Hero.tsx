@@ -5,7 +5,7 @@ export function Hero() {
                 <h2 className="font-medium text-white">Black Friday Sale 20%</h2>
                 <h2 className="text-2xl md:text-4xl text-white">Save Up to 50% Our Cupons</h2>
             </div>
-            <a href="" className="text-lg bg-[#ff9d21] px-3 py-3 rounded-2xl">Mirar todos los cupones</a>
+            <a href="" className="bg-[#ff9d21] px-3 py-3 rounded-2xl">Mirar todos los cupones</a>
         </section>
     )
 }
